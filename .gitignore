@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local config (contains your SDK path — never commit)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.iml
+
+# Keystore / signing
+*.jks
+*.keystore
+keystore.properties
+
+# Outputs
+*.apk
+*.aab
+*.ap_
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
